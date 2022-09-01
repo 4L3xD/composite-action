@@ -9,6 +9,6 @@ jobs:
       - id: foo
         uses: 4L3xD/github_actions@v1
         with:
-          who-to-greet: 'Mona the Octocat'
+          who-to-greet: 'xD'
       - run: echo random-number ${{ steps.foo.outputs.random-number }}
         shell: bash
